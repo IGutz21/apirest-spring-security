@@ -30,6 +30,8 @@ public class Product {
     @Column(unique = true)
     private String name;
 
+    private String image;
+
     private Double price;
 
     private Integer stock;
