@@ -27,7 +27,6 @@ public class Product {
     private Date creationDate;
 
     @NotBlank
-    @Column(unique = true)
     private String name;
 
     private String image;
